@@ -64,9 +64,7 @@ namespace Question.Test
                 decimal approximateValue = decimal.Parse(number.Element("Approximate").Value);
                 decimal sq1 = _squareRoot.CalculateSquareRoot(approximateValue);
                 Assert.StrictEqual(sq1, sq1);             
-            }
-
-           
+            }         
         }
 
         /// <summary>
